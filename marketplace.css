@@ -1,0 +1,36 @@
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.marketplace-heading {
+  margin: 0 0 8px 8px !important;
+}
+#envato-marketplace-items {
+  margin: 0;
+  padding: 0;
+}
+  #envato-marketplace-items li {
+    list-style: none;
+    display: inline;
+    margin: 0
+    padding: 0;
+  }
+    #envato-marketplace-items li a {
+      display: block;
+      float: left;
+      border:1px solid #fff;
+      margin: 0 0 8px 8px;
+      padding: 0
+    }
+    #envato-marketplace-items li a:hover {
+      border-color: #000;
+    }
+      #envato-marketplace-items li a img {
+        float: left;
+        margin: 0;
+        padding: 0;
+      }
