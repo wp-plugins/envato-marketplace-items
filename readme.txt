@@ -20,9 +20,9 @@ The **Envato Marketplace Items** plugin retrieves items from an Envato Marketpla
 
 == Frequently Asked Questions ==
 
-= No Questions Yet =
+= I get errors about file_get_contents() =
 
-Feel free to ask.
+Requires the PHP function `file_get_contents()`. Check with your host to make sure it's enabled or even available.
 
 == Screenshots ==
 
