@@ -4,7 +4,7 @@ Donate link: http://valendesigns.com/wordpress/envato-marketplace-items/
 Tags: envato, api, gallery, themeforest, flashden
 Requires at least: 2.7
 Tested up to: 2.8.4
-Stable tag: trunk
+Stable tag: 1.0.1
 
 Retrieves items from an Envato Marketplace and API set of your choice, then show the results as a sidebar thumbnail gallery.
 
