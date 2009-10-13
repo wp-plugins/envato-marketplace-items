@@ -208,6 +208,17 @@ function envato_marketplace_items()
 {
   global $wpdb;
   
+  // Test for json_decode() function and PHP 4
+  // backwards compatibility
+  if (!function_exists('json_decode')) {
+    include("JSON.php");
+    function json_decode($data, $output_mode=false) {
+      $param = $output_mode ? 16 : null;
+      $json = new Services_JSON($param);
+      return($json->decode($data));
+    }
+  }
+  
   // Get Marketplace
   $api_id = get_option('envato_marketplace');
   
