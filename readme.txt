@@ -30,5 +30,11 @@ Requires the PHP function `file_get_contents()`. Check with your host to make su
 
 == Changelog ==
 
+= 1.0.2 =
+* Changed API call from FlashDen to ActiveDen
+
+= 1.0.1 =
+* Added PHP 4 support
+
 = 1.0.0 =
 * Added plugin to svn
