@@ -3,7 +3,7 @@
 Plugin Name: Envato Marketplace Items
 Plugin URI: http://valendesigns.com/wordpress/envato-marketplace-items/
 Description: Retrieves items from an Envato Marketplace and API set of your choice, then show the results as a sidebar thumbnail gallery.
-Version: 1.0.1
+Version: 1.0.2
 Author: Derek Herman
 Author URI: http://valendesigns.com
 */
@@ -74,6 +74,11 @@ function envato_marketplace_items_install()
   add_option('marketplace_items', '6');
   add_option('marketplace_heading_html', 'h2');
   add_option('marketplace_heading', 'Popular Files');
+  
+  // API url changed to ActiveDen
+  if (get_option('envato_marketplace') == 'flashden') {
+    update_option('envato_marketplace', 'activeden');
+  }
   
 }
 
@@ -148,7 +153,7 @@ function envato_marketplace_items_settings_page()
       <p>
         <label for="envato_marketplace">Choose a Marketplace:</label><br />
         <select name="envato_marketplace" id="envato_marketplace" value="<?php echo get_option('envato_marketplace'); ?>" style="width: 172px;">
-          <option name="flashden" value="flashden"<?php if(get_option('envato_marketplace') == "flashden") { echo ' selected'; } ?>>FlashDen</option>
+          <option name="activeden" value="activeden"<?php if(get_option('envato_marketplace') == "activeden") { echo ' selected'; } ?>>ActiveDen</option>
           <option name="themeforest" value="themeforest"<?php if(get_option('envato_marketplace') == "themeforest") { echo ' selected'; } ?>>ThemeForest</option>
           <option name="videohive" value="videohive"<?php if(get_option('envato_marketplace') == "videohive") { echo ' selected'; } ?>>VideoHive</option>
           <option name="graphicriver" value="graphicriver"<?php if(get_option('envato_marketplace') == "graphicriver") { echo ' selected'; } ?>>GraphicRiver</option>
