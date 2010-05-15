@@ -16,7 +16,7 @@ The **Envato Marketplace Items** plugin retrieves items from an Envato Marketpla
 
 1. Upload the `envato-marketplace-itmes` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place `<?php if (function_exists('envato_marketplace_items')) { envato_marketplace_items(); } ?>` in your theme (sidebar.php recommended). Or, you the built in widget.
+3. Place `<?php if (function_exists('envato_marketplace_items')) { envato_marketplace_items(); } ?>` in your theme (sidebar.php recommended). Or, use the built in widget.
 
 == Frequently Asked Questions ==
 
