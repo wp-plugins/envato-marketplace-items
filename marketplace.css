@@ -6,11 +6,14 @@
 	width: 0;
 	height: 0;
 }
+.envato_marketplace_items_widget {
+  margin: 0 !important;
+}
 .marketplace-heading {
   margin: 0 0 8px 8px !important;
 }
 #envato-marketplace-items {
-  margin: 0;
+  margin: 0 !important;
   padding: 0;
 }
   #envato-marketplace-items li {

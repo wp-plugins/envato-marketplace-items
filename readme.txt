@@ -4,7 +4,7 @@ Donate link: http://valendesigns.com/wordpress/envato-marketplace-items/
 Tags: envato, api, gallery, themeforest, flashden, envato
 Requires at least: 2.8
 Tested up to: 3.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 
 Retrieves items from an Envato Marketplace and API set of your choice, then show the results as a sidebar thumbnail gallery.
 
@@ -29,6 +29,9 @@ Requires the PHP function `file_get_contents()`. Check with your host to make su
 1. The options page.
 
 == Changelog ==
+
+= 1.0.4 =
+* Added Tutorials Marketplace
 
 = 1.0.3 =
 * Added 3dOcean & CodeCanyon
