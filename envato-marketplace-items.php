@@ -3,7 +3,7 @@
 Plugin Name: Envato Marketplace Items
 Plugin URI: http://valendesigns.com/wordpress/envato-marketplace-items/
 Description: Retrieves items from an Envato Marketplace and API set of your choice, then show the results as a sidebar thumbnail gallery.
-Version: 1.0.3
+Version: 1.0.4
 Author: Derek Herman
 Author URI: http://valendesigns.com
 */
